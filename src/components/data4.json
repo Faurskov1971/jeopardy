@@ -1,0 +1,424 @@
+{
+  "games": [
+    {
+      "category": "Manager",
+      "question_array": [
+        {
+          "id": "q1",
+          "question": "Hvilen manager var Uniteds første manager efter 2. verdenskrig?",
+          "point": 100,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": "Matt Busby"
+            },
+            {
+              "answer": "Walter Crickmer"
+            },
+            {
+              "answer": "Wilf McGuinness"
+            },
+            {
+              "answer": "Tommy Docherty"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Hvilken af disse fire var først manager i United?",
+          "point": 200,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": "David Moyes"
+            },
+            {
+              "answer": "Ryan Giggs"
+            },
+            {
+              "answer": "Louis van Gaal"
+            },
+            {
+              "answer": "José Mourinho"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Hvilken af disse managere var længst tid i sædet i United",
+          "point": 300,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "",
+          "point": 400,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "question": "",
+          "point": 500,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "category": "Mellemnavn",
+      "question_array": [
+        {
+          "question": "<strong>Mellemnavn</strong><br>",
+          "point": 100,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q7",
+          "question": "<strong>Mellemnavn</strong><br>",
+          "point": 200,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q8",
+          "question": "<strong>Mellemnavn</strong><br>",
+          "point": 300,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q9",
+          "question": "<strong>Mellemnavn</strong><br>",
+          "point": 400,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "question": "<strong>Mellemnavn</strong><br>",
+          "point": 500,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Rygnummer",
+      "question_array": [
+        {
+          "id": "q11",
+          "question": "<strong>Rygnummer</strong><br>",
+          "point": 100,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q12",
+          "question": "<strong>Rygnummer</strong><br>",
+          "point": 200,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q13",
+          "question": "<strong>Rygnummer</strong><br>",
+          "point": 300,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q14",
+          "question": "<strong>Rygnummer</strong><br>",
+          "point": 400,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q15",
+          "question": "<strong></strong><br>",
+          "point": 500,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "category": "legende",
+      "question_array": [
+        {
+          "question": "<strong>legende</strong><br>",
+          "point": 100,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q17",
+          "question": "<strong>legende</strong><br>",
+          "point": 200,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q18",
+          "question": "<strong>legende</strong><br>",
+          "point": 300,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q19",
+          "question": "<strong>legende</strong><br>",
+          "point": 400,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        },
+        {
+          "id": "q20",
+          "question": "<strong>legende</strong><br>",
+          "point": 500,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            },
+            {
+              "answer": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

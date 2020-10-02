@@ -1,0 +1,425 @@
+{
+  "games": [
+    {
+      "category": "Teknisk profil",
+      "question_array": [
+        {
+          "id": "q1",
+          "question": "I hvilken af disse ansættelser arbejdede jeg med et agilt setup?",
+          "point": 100,
+          "info": "I Bestseller var jeg med på hele den digitale rejse fra vandfaldssmodelen med PLAN, BUILD og RUN til et setup med små selvkørende SCRUM-teams, JIRA og et agilt mindset.",
+          "answer_array": [
+            {
+              "answer": "Bestseller"
+            },
+            {
+              "answer": "kidvertising.dk"
+            },
+            {
+              "answer": "IBM Denmark"
+            },
+            {
+              "answer": "Forlaget Turbine"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "Hvordan kan jeg bedst beskrives som udvikler?",
+          "point": 200,
+          "info": "Jeg kan bedst beskrives som en holistisk udvikler med interesse for hele processen fra idé til færdigt resultat - og altid med brugernes behov som pejlemærke. Min erfaring som udvikler er med en lille vægt på frontend.",
+          "answer_array": [
+            {
+              "answer": "Fortrinsvis frontend-, men har også backend-erfaring"
+            },
+            {
+              "answer": "Udelukkende frontend-udvikler"
+            },
+            {
+              "answer": "Udelukkende backend-udvikler"
+            },
+
+            {
+              "answer": "Fortrinsvis backend-, men har også frontend-erfaring"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Hvor har jeg lært om devOps-principper?",
+          "point": 300,
+          "info": "I mikroskala har jeg altid forholdt mig til hele processen. Hos Bestseller arbejdede jeg tæt sammen med backend-udviklerne med containere, Docker, Kubernetics, CI og CD. På mit initiativ blev vores teams kode integreret med Bestseller IT's struktur med versionsstyret kode, CI og CD.",
+          "answer_array": [
+            {
+              "answer": "Bestseller"
+            },
+            {
+              "answer": "IBM"
+            },
+            {
+              "answer": "kidvertising.dk"
+            },
+            {
+              "answer": "Forlaget Turbine"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Det seneste år har jeg taget cirka 30 kurser med fokus på specielt...",
+          "point": 400,
+          "info": "Det rigtige svar er React med Angular i ascendanten. Undervejs har jeg løftet min kodning med Jslint, TypeScript, OOP og har lært at elske Microsoft VS Code-editoren.",
+          "answer_array": [
+            {
+              "answer": "React"
+            },
+            {
+              "answer": ".net"
+            },
+            {
+              "answer": "Jquery"
+            },
+            {
+              "answer": "Vue"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "question": "Hvad må mit arbejdsliv gerne være karakteriseret ved?",
+          "point": 500,
+          "info": "Jeg opfatter mig som en holistisk udvikler og elsker at påvirke processen, når jeg kan. Jeg evner også fordybelsen og samarbejdet med gode kollegaer. Jeg trives bedst med en åben dialog, hvor alles meninger høres og respekteres.",
+          "answer_array": [
+            {
+              "answer": "Alle tre"
+            },
+            {
+              "answer": "Have ansvar for produktet"
+            },
+            {
+              "answer": "Være med til at videreudvikle arbejdsgange, produkter og nye features"
+            },
+            {
+              "answer": "Lære nyt hver dag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Bag spillet",
+      "question_array": [
+        {
+          "id": "q6",
+          "question": "Hvilket framework er quizzen udviklet i?",
+          "point": 100,
+          "info": "",
+          "answer_array": [
+            {
+              "answer": "React"
+            },
+            {
+              "answer": "Angular"
+            },
+            {
+              "answer": "Vue"
+            },
+            {
+              "answer": "Ren JavaScript"
+            }
+          ]
+        },
+        {
+          "id": "q7",
+          "question": "Hvor mange forskellige slags komponenter består spillet af?",
+          "point": 200,
+          "info": "Spillet består af komponenterne Game, Question, Answer og Info.",
+          "answer_array": [
+            {
+              "answer": "4"
+            },
+            {
+              "answer": "1"
+            },
+            {
+              "answer": "2"
+            },
+            {
+              "answer": "3"
+            }
+          ]
+        },
+        {
+          "id": "q8",
+          "question": "Spillets data...?",
+          "point": 300,
+          "info": "Spillet er gemt i en JSON-fil, som er formateret på samme måde som mine quizzer på min blog unitedman.dk. På den måde kan jeg nu også udskifte min gamle version af quizzen på bloggen.",
+          "answer_array": [
+            {
+              "answer": "Kommer fra en JSON-fil"
+            },
+            {
+              "answer": "Kommer fra MS SQL"
+            },
+            {
+              "answer": "Er hardcodet i komponenten Info"
+            },
+            {
+              "answer": "Kommer fra NoSQL-database"
+            }
+          ]
+        },
+        {
+          "id": "q9",
+          "question": "Info-komponenten, som viser et pop-up-vindue, når brugeren markerer 'Læs mere...'-knappen, er...",
+          "point": 400,
+          "info": "Rodal er et meget populært npm-bibliotek med mange features. Eksempelvis kan jeg vælge mange forskellige animationsformer, når vinduet vises. De mange biblioteker til rådighed er en af Reacts store fordele.",
+          "answer_array": [
+            {
+              "answer": "Et npm-bibliotek, som hedder Rodal"
+            },
+            {
+              "answer": "En indbygget feature i React"
+            },
+            {
+              "answer": "En feature i JQuery"
+            },
+            {
+              "answer": "En feature, jeg selv har udviklet fra bunden"
+            }
+          ]
+        },
+        {
+          "id": "q10",
+          "question": "Denne quiz viser, at jeg kan udvikle i React, men hvilket JavaScript-bibliotek er mest efterspurgt på arbejdsmarkedet lige nu?",
+          "point": 500,
+          "info": "Ifølge en undersøgelse fra https://da.bccrwp.org/ af 60.000 jobopslag er React klart mest efterspurgt, mens Angular indtager pladsen som nummer to.",
+          "answer_array": [
+            {
+              "answer": "React"
+            },
+            {
+              "answer": "Angular"
+            },
+            {
+              "answer": "Vue.js"
+            },
+            {
+              "answer": "JQuery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Produkter",
+      "question_array": [
+        {
+          "id": "q11",
+          "question": "TIl hvem udviklede jeg den digitale udgave af Sudoku, som straks blev det mest spillede spil på siden. Og måske i hele landet det år.",
+          "point": 100,
+          "info": "For første gang oplevede jeg, at et af mine spil nåede ud til hele Danmark. Samarbejdet med TV2 varede i nogle år, og der kom mange andre spil til undervejs. Jeg lærte at reagere hurtigt når TV2's mange brugere fandt fejl eller ønskede nye features.",
+          "answer_array": [
+            {
+              "answer": "tv2.dk"
+            },
+            {
+              "answer": "Danfoss"
+            },
+            {
+              "answer": "TDC"
+            },
+            {
+              "answer": "Grundfos"
+            }
+          ]
+        },
+        {
+          "id": "q12",
+          "question": "Hvilken stor dansk virksomhed udviklede jeg julekalender til i en del år på mange forskellige sprog?",
+          "point": 200,
+          "info": "Igennem en årrække lavede jeg en interaktiv julekalender til Danfoss, som skabte opmærksomhed på firmaets produkter. Danfoss var igennem årene en god kunde, og deres professionelle og dygtige medarbejdere var med til at gøre mig til en bedre udvikler med stor fokus på kvalitet.",
+          "answer_array": [
+            {
+              "answer": "Danfoss"
+            },
+            {
+              "answer": "Finanssektorens Uddannelsescenter"
+            },
+            {
+              "answer": "TDC"
+            },
+            {
+              "answer": "Maersk Containere"
+            }
+          ]
+        },
+        {
+          "id": "q13",
+          "question": "Hvad bestod mit iværksætterprojekt, som jeg arbejdede på fra 2015-17, af?",
+          "point": 300,
+          "info": "Mit iværksættereventyr teacher-content.com var læringsspil på ni sprog med fokus på faget geografi. Projektet gav mig viden om forretningsmodeller, at udvikle en stor SEO-optimeret hjemmeside på alle sprogene og masser af erfaring med købsprocessen. Desuden lærte jeg at udvikle spil baseret på JavaScript og JavaScript-biblioteker.",
+          "answer_array": [
+            {
+              "answer": "Læringsspil på ni sprog"
+            },
+            {
+              "answer": "En ny og epokegørende betalingsløsning"
+            },
+            {
+              "answer": "Tøj til hunde"
+            },
+            {
+              "answer": "Et filosofisk univers til børnehavebørn"
+            }
+          ]
+        },
+        {
+          "id": "q14",
+          "question": "Hvilket dansk firma blev min første store kunde? Et samarbejde, som strakte sig over en del år med flere store e-learnings-kurser, der blev indledt af selveste Henning Dyremose.",
+          "point": 400,
+          "info": "Igennem årene lavede jeg mange store løsninger til TDC. Blandt andet miljøkampagne, arbejdsmiljøkursus, skriftlig kommunikation, leverandør-database og store kampagnesites. Samarbejdet lærte mig at skabe digitale løsninger og være teknisk ansvarlig i samarbejde med mange forskellige afdelinger i det landsdækkende firma.",
+          "answer_array": [
+            {
+              "answer": "TDC"
+            },
+            {
+              "answer": "Knauf A/S"
+            },
+            {
+              "answer": "Aarhus Stiftstidende"
+            },
+            {
+              "answer": "Egmont"
+            }
+          ]
+        },
+        {
+          "id": "q15",
+          "question": "Som teknisk ansvarlig for team e-learning var den drivende kraft i at gøre dette firmas læringsunivers mobilvenligt. Hvilket firma?",
+          "point": 500,
+          "info": "På to år som teknisk ansvarlig i team e-learning hos Bestseller fik vi gjort deres Content Learning System og de nye kurser mobilvenlige, sprogversionerede og meget mere interaktive. Vi gik fra at lave kurserne i forfatterværktøjet Captivate til at udvikle dem i en kombination af JavaScript, CSS og HTML5. Jeg fik i processen integreret teamets kode med firmaets gældende devOps-anbefalinger med versionsstyret kode og Continuous Integration",
+          "answer_array": [
+            {
+              "answer": "Bestseller"
+            },
+            {
+              "answer": "TDC"
+            },
+            {
+              "answer": "Danfoss"
+            },
+            {
+              "answer": "Grundfos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Bag Brian",
+      "question_array": [
+        {
+          "id": "q16",
+          "question": "I min fritid er jeg formand for...",
+          "point": 100,
+          "info": "Siden slutningen af 1990'erne har jeg været formand for foreningen Spark Mange Mål Aarhus. I klubben spiller vi indendørsfodbold hver søndag eftermiddag i vinterhalvåret.",
+          "answer_array": [
+            {
+              "answer": "Fodboldklubben 'Spark Mange Mål Aarhus'"
+            },
+            {
+              "answer": "Dartklubben 'På pletten'"
+            },
+            {
+              "answer": "Cykelklubben 'Hele vejen rundt'"
+            },
+            {
+              "answer": "Hundeførerforeningen 'På plads'"
+            }
+          ]
+        },
+        {
+          "id": "q17",
+          "question": "Hvor mange børn har jeg?",
+          "point": 200,
+          "info": "Jeg har to døtre på 15 og 18 år, som går i 9. klasse og i 3. g.",
+          "answer_array": [
+            {
+              "answer": "2"
+            },
+            {
+              "answer": "1"
+            },
+            {
+              "answer": "3"
+            },
+            {
+              "answer": "4"
+            }
+          ]
+        },
+        {
+          "id": "q18",
+          "question": "Hvor mange maratonløb har jeg løbet",
+          "point": 300,
+          "info": "Jeg har løbet maraton i Paris, London, Berlin og Odense. Før jeg blev en glad løber, cyklede jeg en del og har blandt andet cyklet Sjælland Rundt, Vettern Rundt og Aarhus København.",
+          "answer_array": [
+            {
+              "answer": "4"
+            },
+            {
+              "answer": "1"
+            },
+            {
+              "answer": "2"
+            },
+            {
+              "answer": "3"
+            }
+          ]
+        },
+        {
+          "id": "q19",
+          "question": "Jeg solgte domænenavnet www.spil.nu til spilnu.dk i 2014. Hvad tror I, at jeg fik for det?",
+          "point": 400,
+          "info": "Pengene brugte jeg til at købe mig selv fri til at starte et iværksætterprojekt med læringsspil til folkeskolen.",
+          "answer_array": [
+            {
+              "answer": "400.000 kroner"
+            },
+            {
+              "answer": "17.000 og en iPhone"
+            },
+            {
+              "answer": "To uger i et sommerhus i Marbella"
+            },
+            {
+              "answer": "spilnu.dk fik domænenavnet gratis"
+            }
+          ]
+        },
+        {
+          "id": "q20",
+          "question": "Mine egne læringsspil på spil.nu, skoline.dk og teacher-content.com er igennem tiden besøgt af...",
+          "point": 500,
+          "info": "Jeg er stolt over, at så mange børn er blevet klogere ved at bruge mine spil. De fleste spiller i skoletiden, så lærerne må også være glade for spillene.",
+          "answer_array": [
+            {
+              "answer": "2.500.000 brugere"
+            },
+            {
+              "answer": "1.500.000 brugere"
+            },
+            {
+              "answer": "500.000 brugere"
+            },
+            {
+              "answer": "4.000.000 brugere"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
