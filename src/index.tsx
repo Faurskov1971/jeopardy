@@ -6,7 +6,7 @@ import Game from "./components/Game";
 
 ReactDOM.render(
   <div>
-    <h1 className="">BRIANS TIVOLI-QUIZ</h1>
+    <h1 className="">BRIANS QUIZ</h1>
     <Game />
     <p className="description">
       Udviklet af Brian Faurskov i React, TypeScript, CSS3, HTML5 med mere.
