@@ -35,7 +35,6 @@ class Answer extends React.Component<Props> {
       //info knap
       $("#" + questionId + "_info").css("display", "block");
       $("#" + questionId + "_0").css("background-color", "darkgreen");
-      //$("#" + questionId + "_point").css("background-color", "#FFF");
       $("#" + questionId).css("display", "none");
       this.props.onLockQuestion(pointActual, actualAnswer);
       this.props.onScoreChange(pointActual);
