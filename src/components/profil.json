@@ -171,7 +171,7 @@
         },
         {
           "id": "q9",
-          "question": "Info-komponenten, som viser et pop-up-vindue, når brugeren markerer 'Læs mere...'-knappen, er...",
+          "question": "Info-komponenten, som viser et pop-up-vindue, når brugeren har svaret på et spørgsmål.",
           "point": 400,
           "info": "Rodal er et meget populært npm-bibliotek med mange features. Eksempelvis kan jeg vælge mange forskellige animationsformer, når vinduet vises. De mange biblioteker til rådighed er en af Reacts store fordele.",
           "answer_array": [
