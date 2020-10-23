@@ -1,17 +1,16 @@
 body {
-  background-color: #272727;
-  background-image: url("tivoli.jpg");
+  background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
 h1 {
   text-align: center;
-  color: #ad9260;
+  color: #000;
   font-weight: normal;
 }
 h2 {
-  color: #fff;
+  color: #000;
   font-family: trebuchet;
 }
 .headingFront {
@@ -43,6 +42,7 @@ h2 {
   position: fixed;
   bottom: 0;
   width: 100%;
+  display: none;
 }
 .buttons {
   width: 20%;
@@ -52,12 +52,12 @@ h2 {
   font-size: 24px;
 }
 .game {
-  padding: 10px;
+  padding: 0px;
 }
 .category {
   width: 20%;
   float: left;
-  background-color: #272727;
+  background-color: #ddd;
   padding: 15px;
   margin: 3px;
 }
@@ -70,7 +70,7 @@ button {
   min-height: 30px;
   background-color: #272727;
   cursor: pointer;
-  color: #fff;
+  color: rgb(168, 166, 166);
   border: none;
 }
 .FancyBorder-blue {
@@ -106,11 +106,12 @@ body {
   color: darkgreen;
 }
 .point {
-  background-color: #ad9263;
+  background-color: #000;
   cursor: pointer;
   font-size: 22px;
   border: none;
   color: #fff;
+  padding: 0px;
 }
 
 @media screen and (max-width: 600px) {
