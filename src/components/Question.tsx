@@ -24,8 +24,9 @@ class Question extends React.Component<Props, MyState> {
     this.state = {
       activeQuestion: true,
       id: this.props.id,
-      range: this.random2F(4),
+      range: this.random2F(this.props.answers.length),
     };
+    console.log(this.props.answers.length)
   }
 
   activateAnswers(id: string) {

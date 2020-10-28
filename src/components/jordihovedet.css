@@ -5,9 +5,17 @@ body {
   height: 100vh;
 }
 h1 {
-  text-align: center;
-  color: #000;
-  font-weight: normal;
+  color: #6d6d6d;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  padding-bottom: 14px;
+  text-align: left;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #869ab8;
 }
 h2 {
   color: #000;

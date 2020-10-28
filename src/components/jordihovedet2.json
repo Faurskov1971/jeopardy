@@ -1,84 +1,90 @@
 {
   "games": [
     {
-      "category": "Stevns Klint",
+      "category": "Kridt Tertiær",
       "question_array": [
         {
           "id": "q1",
-          "question": "Hvilken slags blæksprutter overlevede kridt-tertiær-grænsen?",
+          "question": "Hvornår opstod de første rigtige pattedyr?",
           "point": 100,
           "info": "",
           "answer_array": [
             {
-              "answer": "Nautilerne"
+              "answer": "Samtidig med dinosaurerne"
             },
             {
-              "answer": "Ammonitterne"
+              "answer": "Før dinosaurerne"
             },
             {
-              "answer": "Belemnitterne"
+              "answer": "Efter dinosaurerne uddøde"
             }
           ]
         },
         {
           "id": "q2",
-          "question": "Hvad hedder lerlaget, der markerer grænsen mellem kridt- og tertiærtiden ved Stevns Klint?",
+          "question": "Hvad skete der med kokolitalgerne ved kridt-tertiær-grænsen?",
           "point": 200,
           "info": "",
           "answer_array": [
             {
-              "answer": "Fiskeleret"
+              "answer": "De holdt op med at producere skaller (Kokkolitter)"
             },
             {
-              "answer": "Moleret"
+              "answer": "De uddøde"
             },
             {
-              "answer": "Det plastiske ler"
+              "answer": "Ingenting"
             }
           ]
         },
         {
           "id": "q3",
-          "question": "Hvilke dyr har bygget bankerne, man kan se i klinterne ved Stevns?",
+          "question": "Hvilket sjældent grundstof findes i unaturligt store mængder i fiskelers lager ved Stevns Klint?",
           "point": 300,
           "info": "",
           "answer_array": [
             {
-              "answer": "Bryozoer (mosdyr)"
+              "answer": "Iridium"
             },
             {
-              "answer": "Koraller"
+              "answer": "Barium"
             },
             {
-              "answer": "Søanemoner"
+              "answer": "Litium"
             }
           ]
         },
         {
           "id": "q4",
-          "question": "Kan man finde dinosaurere i Faxe Kalkbrud?",
+          "question": "Hvor længe herskede dinosaurerne på landjorden?",
           "point": 400,
           "info": "",
           "answer_array": [
             {
-              "answer": "Nej"
+              "answer": "150 millioner år"
             },
             {
-              "answer": "Ja"
+              "answer": "200 millioner år"
+            },
+            {
+              "answer": "100 millioner år"
             }
           ]
         },
         {
           "id": "q5",
-          "question": "Hvilken dyregruppe opstod først?",
+          "question": "Hvor stor en del af dyrelivet uddøde ved kridt-tertiær-grænsen?",
           "point": 500,
           "info": "",
           "answer_array": [
             {
-              "answer": "Pattedyrene"
+              "answer": "40%"
             },
             {
-              "answer": "Dinosaurerne"
+              "answer": "80%"
+            },
+            {
+              "answer": "25%"
             }
           ]
         }
@@ -89,266 +95,257 @@
       "question_array": [
         {
           "id": "q6",
-          "question": "Hvad er kridtet på Møns Klint lavet af?",
+          "question": "Hvad er de sorte striber, der ligger i kridtet på Møns Klint",
           "point": 100,
           "info": "",
           "answer_array": [
             {
-              "answer": "Mikroskopiske kalkskaller"
+              "answer": "Flintesten"
             },
             {
-              "answer": "Rådne blade og tang"
+              "answer": "Aske"
             },
             {
-              "answer": "Bleget jord"
+              "answer": "Lava"
             }
           ]
         },
         {
           "id": "q7",
-          "question": "Hvor høj er Møns Klint?",
+          "question": "Hvor er kridtet på Møns Klint dannet?",
           "point": 200,
           "info": "",
           "answer_array": [
             {
-              "answer": "128 meter"
+              "answer": "På bunden af et hav"
             },
             {
-              "answer": "32 meter"
+              "answer": "Under en vulkan"
             },
             {
-              "answer": "87 meter"
+              "answer": "I et laboratorium"
             }
           ]
         },
         {
           "id": "q8",
-          "question": "Hvor stor var den store rovøgle Mosasaur, som har levet i havet ved Møns Klint?",
+          "question": "På Møns Klint har man fundet flere danekræ. Hvad er et danekræ?",
           "point": 300,
           "info": "",
           "answer_array": [
             {
-              "answer": "Ca. 15 meter"
+              "answer": "Et gammelt sjældent dyr i meget fin stand"
             },
             {
-              "answer": "Ca. 8 meter"
+              "answer": "Et forstenet dyr med dansk pas"
             },
             {
-              "answer": "Ca. 10 meter"
+              "answer": "Et gammelt, meget sjældent dyr"
             }
           ]
         },
         {
           "id": "q9",
-          "question": "På Møns Klint lever i dag verdens allerhurtigste dyr, vandrefalken. Hvor hurtigt kan den flyve?",
+          "question": "Er det helt gratis at samle fossiler på Møns Klint?",
           "point": 400,
           "info": "",
           "answer_array": [
             {
-              "answer": "350 km/t"
+              "answer": "Ja"
             },
             {
-              "answer": "150 km/t"
+              "answer": "Nej"
             },
             {
-              "answer": "270 km/t"
+              "answer": "Nej, de første 50 er gratis, herefter 10,-/fossil."
             }
           ]
         },
         {
           "id": "q10",
-          "question": "Møns Klint er skubbet op af isen under sidste istid. Hvor lang tid er det siden?",
+          "question": "Får klassen gratis sin egen naturvejleder med på et besøg på Møns Klint",
           "point": 500,
           "info": "",
           "answer_array": [
             {
-              "answer": "Ca. 10-15.000 år"
+              "answer": "Ja, så er der jo garanti for fossiler!"
             },
             {
-              "answer": "Ca. 50.000 år"
-            },
-            {
-              "answer": "Ca. 100 millioner år"
+              "answer": "Nej, ingen er velkomne"
             }
           ]
         }
       ]
     },
     {
-      "category": "Gram Lergrav",
+      "category": "Gram",
       "question_array": [
         {
           "id": "q11",
-          "question": "Hvad hedder den mest almindelige musling, man kan finde i Gram Lergrav?",
+          "question": "Hvad kunne kæmpehajen godt lide at spise?",
           "point": 100,
           "info": "",
           "answer_array": [
             {
-              "answer": "Astarte reimersi"
+              "answer": "Hvaler"
             },
             {
-              "answer": "Astarte martini"
+              "answer": "Flæskesteg"
             },
             {
-              "answer": "Astarte rothi"
+              "answer": "Sild"
             }
           ]
         },
         {
           "id": "q12",
-          "question": "Hvilken fugl er der fundet rester af i Gram-leret?",
+          "question": "Hvad skal man aflevere til museet ved Gram Lergrav?",
           "point": 200,
           "info": "",
           "answer_array": [
             {
-              "answer": "Søpapegøje"
+              "answer": "Hvalknogler"
             },
             {
-              "answer": "Amazonpapegøje"
+              "answer": "Muslingeskaller"
             },
             {
-              "answer": "Pingvin"
+              "answer": "Sine penge"
             }
           ]
         },
         {
           "id": "q13",
-          "question": "Hvad hedder den største haj, der er fundet én tand af i Gram Lergrav?",
+          "question": "Hvad er Gram-ler?",
           "point": 300,
           "info": "",
           "answer_array": [
             {
-              "answer": "Megalodon"
+              "answer": "Finkornet materiale fra de sydskandinaviske fjelde"
             },
             {
-              "answer": "Megamouth"
+              "answer": "Fint korn fra de jyske marker"
             },
             {
-              "answer": "Megahaj"
+              "answer": "Fine mineraler fra Schweiz"
             }
           ]
         },
         {
           "id": "q14",
-          "question": "Hvad havde teglværksarbejderne i urkæden?",
+          "question": "Hvor lang er Gram Lergrav?",
           "point": 400,
           "info": "",
           "answer_array": [
             {
-              "answer": "En hajtand"
+              "answer": "400 m"
             },
             {
-              "answer": "En bornholmer"
+              "answer": "200 m"
             },
             {
-              "answer": "Et ur"
+              "answer": "600 m"
             }
           ]
         },
         {
           "id": "q15",
-          "question": "Hvor tung var kæmpehajen?",
+          "question": "Hvor dybt var Gram-havet?",
           "point": 500,
           "info": "",
           "answer_array": [
             {
-              "answer": "60 ton"
+              "answer": "100 m"
             },
             {
-              "answer": "125 kilo"
+              "answer": "1000 m"
             },
             {
-              "answer": "3 ton"
+              "answer": "10 km"
             }
           ]
         }
       ]
     },
     {
-      "category": "Moleret",
+      "category": "Molerhavet",
       "question_array": [
         {
           "id": "q16",
-          "question": "Hvad er moler lavet af?",
+          "question": "Hvor gamle er fossiler af træ, blade, insekter og fugle i moleret?",
           "point": 100,
           "info": "",
           "answer_array": [
             {
-              "answer": "Havets alger"
+              "answer": "Samme alder som moleret"
             },
             {
-              "answer": "Papir"
+              "answer": "Ældre end moleret"
             },
             {
-              "answer": "Sand"
+              "answer": "Yngre end moleret"
             }
           ]
         },
         {
           "id": "q17",
-          "question": "Hvad er algernes skeletter i moleret lavet af?",
+          "question": "Hvad fortæller fossilerne i moleret os?",
           "point": 200,
           "info": "",
           "answer_array": [
             {
-              "answer": "Kisel (opal-glas)"
+              "answer": "Om livet for længe siden i og ved molerhavet"
             },
             {
-              "answer": "Kalk"
+              "answer": "Ingenting"
             },
             {
-              "answer": "Plastik"
+              "answer": "Alting"
             }
           ]
         },
         {
           "id": "q18",
-          "question": "Hvad bruger man de lette luftfyldte kiselalger (moleret) til?",
+          "question": "Hvor gammelt er moleret?",
           "point": 300,
-          "info": "Keselalger kan faktisk både bruges til kattegrus, dynamit, fodertilskud og isolerende mursten.",
+          "info": "",
           "answer_array": [
             {
-              "answer": "Kattegrus og dynamit"
+              "answer": "55.000.000 år gammelt"
             },
             {
-              "answer": "Teglmursten"
+              "answer": "45.000.000 år gammelt"
             },
             {
-              "answer": "Maling"
+              "answer": "65.000.000 år gammelt"
             }
           ]
         },
         {
           "id": "q19",
-          "question": "Hvad er de sorte streger i moleret?",
+          "question": "Hvor i havet levede der også sild og havskildpadder?",
           "point": 400,
           "info": "",
           "answer_array": [
             {
-              "answer": "Vulkansk aske"
+              "answer": "De levede oppe i sollyset"
             },
             {
-              "answer": "Asfalt"
-            },
-            {
-              "answer": "Jord"
+              "answer": "De levede nede på bunden"
             }
           ]
         },
         {
           "id": "q20",
-          "question": "Hvilken kraft har foldet askelagene og moleret?",
+          "question": "Når der ikke er ilt ved bunden, er der så noget liv?",
           "point": 500,
           "info": "",
           "answer_array": [
             {
-              "answer": "Istiden"
+              "answer": "Nej - ikke ret meget"
             },
             {
-              "answer": "Store maskiner"
-            },
-            {
-              "answer": "Kæmper"
+              "answer": "Ja – dyrene holder vejret"
             }
           ]
         }
