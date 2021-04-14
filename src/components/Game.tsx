@@ -1,5 +1,5 @@
 import React from "react";
-import data from "./jordihovedet.json";
+import data from "./jordihovedet2.json";
 import Question from "./Question";
 
 let jeopardyData = data;
