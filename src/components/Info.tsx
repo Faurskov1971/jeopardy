@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 // @ts-ignore
 import Rodal from "rodal";
 
 // include styles
 import "rodal/lib/rodal.css";
 
-interface MyProps {
+interface InfoProps {
   text: string;
   head: string;
   info: string;
@@ -14,30 +14,25 @@ interface MyProps {
 interface MyState {
   visible: boolean;
 }
-class Info extends React.Component<MyProps, MyState> {
-  constructor(props: any) {
-    super(props);
-    this.state = { visible: true };
+function Info({text,head,info,animation}:InfoProps) {
+const [visible,setVisible]=useState(false)
+
+const show=()=> {
+    setVisible(true);
   }
 
-  show() {
-    this.setState({ visible: true });
+const hide=() =>{
+    setVisible(false)
   }
-
-  hide() {
-    this.setState({ visible: false });
-  }
-  render() {
     return (
       <div>
-        <Rodal visible={this.state.visible} onClose={this.hide.bind(this)}>
+        <Rodal visible={visible} onClick={hide()}>
           <div className="infoText">
-            <h3 className="infoHead">Rigtigt svar er '{this.props.head}'</h3>
-            <p className="infoBread">{this.props.info}</p>
+            <h3 className="infoHead">Rigtigt svar er '{head}'</h3>
+            <p className="infoBread">{info}</p>
           </div>
         </Rodal>
       </div>
     );
   }
-}
 export default Info;

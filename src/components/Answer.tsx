@@ -1,7 +1,6 @@
 import React from "react";
-import $ from "jquery";
 
-interface Props {
+interface AnswerProps {
   questionId: string;
   point: number;
   activeQuestion: boolean;
@@ -9,51 +8,34 @@ interface Props {
   id: string;
   name: string;
   onLockQuestion: Function;
-  onScoreChange: Function;
 }
-class Answer extends React.Component<Props> {
-  constructor(props: any) {
-    super(props);
-    this.handleChange = this.handleChange.bind(this);
-  }
+const Answer=({questionId,nummer,activeQuestion,id,name,onLockQuestion}:AnswerProps)=>  {
+  function handleChange(e: any) {
+    const actualAnswer = id;
+    const pointActual = 0;
 
-  handleChange(e: any) {
-    const actualAnswer = e.target.id;
-    var pointActual = 0;
-    var questionId = this.props.questionId;
-    var point = this.props.point;
-
-    if (this.props.activeQuestion) {
+    if (activeQuestion) {
       if (actualAnswer === questionId + "_0") {
-        $("#" + questionId + "_point").css("color", "darkgreen");
-        pointActual = point;
+        console.log("rigtigt")
       } else {
-        $("#" + actualAnswer).css("background-color", "darkred");
-        $("#" + questionId + "_point").css("color", "darkred");
-        pointActual = -point;
+        console.log("Forkert")
       }
       //info knap
-      $("#" + questionId + "_info").css("display", "block");
-      $("#" + questionId + "_0").css("background-color", "darkgreen");
-      $("#" + questionId).css("display", "none");
-      this.props.onLockQuestion(pointActual, actualAnswer);
-      this.props.onScoreChange(pointActual);
+      onLockQuestion(pointActual, actualAnswer);
     } else {
       alert("Question is already used!");
     }
   }
-  render() {
     return (
       <div>
         <button
-          onClick={this.handleChange}
-          value={this.props.nummer}
-          id={this.props.id}
+          onClick={()=>handleChange}
+          value={nummer}
+          id={id}
         >
-          {this.props.name}
+          {name}
         </button>
       </div>
     );
   }
-}
 export default Answer;

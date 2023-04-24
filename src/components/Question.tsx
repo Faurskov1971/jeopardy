@@ -1,43 +1,25 @@
-import React from "react";
-import $ from "jquery";
+import React, { useState } from "react";
 import Answer from "./Answer";
 import Info from "./Info";
-interface Props {
+interface QuestionProps {
   id: string;
   point: number;
   question: string;
   info: string;
   answers: Array<any>;
-  onScoreChange: Function;
 }
-interface MyState {
-  activeQuestion: boolean;
-  id: string;
-  range: any[] | any;
-}
-class Question extends React.Component<Props, MyState> {
-  constructor(props: any) {
-    super(props);
-    this.handleAnswer = this.handleAnswer.bind(this);
-    this.activateAnswers = this.activateAnswers.bind(this);
+function Question({id,point,question,info,answers}:QuestionProps) {
+  const [activeQuestion,setActiveQuestion]=useState(true)
+ // const range: random2F(this.props.answers.length),
 
-    this.state = {
-      activeQuestion: true,
-      id: this.props.id,
-      range: this.random2F(this.props.answers.length),
-    };
-    console.log(this.props.answers.length)
-  }
 
-  activateAnswers(id: string) {
-    $(".answers").hide();
-    $(".hide").hide();
-    $("#" + id).show();
+ const activateAnswers=(id: string) =>{
+//Denne funktion skal vise og skjule spørgsmål
   }
-  handleAnswer() {
-    this.setState({ activeQuestion: false });
+ const handleAnswer=()=> {
+//Denn funktion skal skjule et spørgsmål
   }
-  random2F(antal: number) {
+ const random2F=(antal: number)=> {
     const startArray = [];
     const slutArray = [];
     for (let i = 0; i < antal; i++) {
@@ -51,53 +33,50 @@ class Question extends React.Component<Props, MyState> {
     }
     return slutArray;
   }
-  answersF() {
-    const range = this.state.range;
+  const answersF=()=> {
+  //  const range = this.state.range;
     let count = 0;
     return (
       <div>
-        {range.map((number: any) => (
+        {answers.map((number: any) => (
           <Answer
             key={count++}
-            name={this.props.answers[number].answer}
-            onLockQuestion={this.handleAnswer}
-            onScoreChange={this.props.onScoreChange}
+            name={answers[number].answer}
+            onLockQuestion={handleAnswer}
             nummer={number}
-            id={this.state.id + "_" + number}
-            point={this.props.point}
-            questionId={this.state.id}
-            activeQuestion={this.state.activeQuestion}
+            id={id + "_" + number}
+            point={point}
+            questionId={id}
+            activeQuestion={activeQuestion}
           />
         ))}
       </div>
     );
   }
 
-  render() {
     return (
       <div>
         <button
-          onClick={() => this.activateAnswers(this.state.id)}
-          id={this.state.id + "_point"}
+          onClick={() => activateAnswers(id)}
+          id={id + "_point"}
           className="point"
         >
-          {this.props.point}
+          {point}
         </button>
-        <div className="answers" id={this.state.id}>
-          <p className="question">{this.props.question}</p>
-          <div>{this.answersF()}</div>
+        <div className="answers" id={id}>
+          <p className="question">{question}</p>
+          <div>{answersF()}</div>
         </div>
-        <span id={this.state.id + "_info"} className="hide">
+        <span id={id + "_info"} className="hide">
           <Info
             text={" Læs mere..."}
-            info={this.props.info}
-            head={this.props.answers[0].answer}
+            info={info}
+            head={answers[0].answer}
             animation="door"
           />
         </span>
       </div>
     );
-  }
 }
 
 export default Question;

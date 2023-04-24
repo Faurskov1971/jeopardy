@@ -1,29 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import data from "./jordihovedet2.json";
 import Question from "./Question";
 
-let jeopardyData = data;
-
-interface MyProps {
-  // answers: Array<string>;
-}
-interface MyState {
-  pointGame: number;
-}
-class Game extends React.Component<MyProps, MyState> {
-  constructor(props: any) {
-    super(props);
-    this.score = this.score.bind(this);
-    this.state = { pointGame: 0 };
-  }
-  score(actuelPoint: number) {
-    let newScore = this.state.pointGame + actuelPoint;
-    this.setState({ pointGame: newScore });
-  }
-  render() {
+function Game() {
+  const jeopardyData = data;
+    const [pointGame, setPointGame]=useState(0) ;
     return (
       <div className="game">
-        <h2>{this.state.pointGame}</h2>
+        <h2>{pointGame}</h2>
 
         {jeopardyData.games.map((game, i) => {
           return (
@@ -34,7 +18,6 @@ class Game extends React.Component<MyProps, MyState> {
                   return (
                     <div key={index}>
                       <Question
-                        onScoreChange={this.score}
                         id={question.id}
                         point={question.point}
                         question={question.question}
@@ -50,7 +33,6 @@ class Game extends React.Component<MyProps, MyState> {
         })}
       </div>
     );
-  }
 }
 
 export default Game;
